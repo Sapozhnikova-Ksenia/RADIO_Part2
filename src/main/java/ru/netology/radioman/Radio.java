@@ -7,7 +7,7 @@ public class Radio {
     private int minVolume = 0;
     private int maxVolume = 100;
     private int currentVolume;
-    private  int quantityRadiostation= 10;
+    private int quantityRadiostation= 10;
 
     public Radio() {
     }
@@ -63,9 +63,6 @@ public class Radio {
     public void setCurrentVolume(int currentVolume) {
         if (currentVolume>maxVolume){
             currentVolume=maxVolume;
-        };
-        if (currentVolume<minVolume){
-            currentVolume=minVolume;
         }
         this.currentVolume=currentVolume;
     }
