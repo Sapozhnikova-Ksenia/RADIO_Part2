@@ -19,9 +19,8 @@ public class Radio {
         this.lastRadiostation = this.quantityRadiostation - 1;
     }
 
-    public int getCurrentVolume() {
-        return currentVolume;
-    }
+
+
 
     public void setCurrentVolume(int currentVolume) {
         if (currentVolume > maxVolume) {
